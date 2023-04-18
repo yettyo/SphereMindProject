@@ -1,0 +1,41 @@
+sürtünme aynı -9.81
+top ağırlığı 1
+ortalama karakter ağırlığı 10
+sürtünme ortalama bir değer 0.6
+ama iki sürtünme değerine sahip cisimlerin sürtünmesi nasıl olur bilmiyorum
+eğer bununla ilgili bir iş yapılacaksa bunu çözmesi gerek ki, sürtünmeli yüzeydeki
+etkileşimi anlaması için, veya belirli alandaki karakterlerin sürtünme değerlerini
+değiştirerek de bunu yapabilir
+
+zıplama top için 0.8
+karakter için 0.5
+yine iki farklı zıplama özelliğinde cisimler nasıl davranır bilmiyorum
+ama belki de çok da anlamaya gerek yok, eğer zıplama üzerine bir karaker veya
+oyun ögesi olacaksa (duvardan çok daha fazla sektirecek bir zıplatma ögesi mesela)
+sadece zıplama değiştirilerek neler olduğuna bakılabilir
+
+esnek olmayan çarpışmaların olduğu, 0 zıplama değeri kesinlikle çok daha
+kötü sıkıcı bir hal
+ama esnek çarpışmalarla ilgili sıkıntı, enerji aktarımı olduğu için
+çarpışmalarda, sonuçta daha fazla hareket olsa da bazıları da daha çabuk durur.
+mesela zıtlaşma durumlarında, fazla kütle, rakibe üstünlük sağlıyor mu düşünmek gerek.
+çünkü tam esnek çarpışmalarda momentumlar birbirlerine aktarılır, o zaman momentumu fazla olan
+diğerine daha fazla enerji verir ve kendi enerjisinden olur, ama bi yandan da o karakteri kendi istediği yöne 
+gönderir (kendi gidemese de). gerçekte ise karakterler için 0.5 zıplama seçildiği için
+ikisi arasında bir şey olacak, ama zaten, nasıl olacağını anlayıp ona uygun oynanırsa sıkıntı yok.
+yine de daha ağır olmak tam olarak bir avantaj değil.
+
+ortalama hız 160
+
+sürtünme kat sayısı aynıysa
+daha ağır olanla hafif olana aynı hız atandığında aynı şekilde hareket edecekler
+yani ağırlığına göre sürtünme hız dert etmeye gerek yok
+aynı hızda ve aynı şekilde hareket edecekler
+bu fizikle ilgili bir şeylerden geliyor
+
+ama fazla kütle vermek karakteri daha sağlam yapacak ve, diğerlerini yarıp geçer
+veya çarpıştıklarında üstün gelmesini sağlar
+
+hacim ise sadece hacim seviyesi bir etkide, yani hızı etkilemiyor veya başka bir şeyi.
+yani sürtünen yüzey diye bir şey yok. rahatça bu tek etkisi için farklı boyutlarda 
+seçilebilir.
